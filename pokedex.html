@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="pokedex">
+            <div id="PokemonPantalla">
+                <img src="R.gif" id="img-sprite">
+                <input type="text" readonly id="PokeName" value="Pokedex v.1">
+                <input type="text" readonly id="PokedexID">
+            </div>
+            <div id="EntPant">
+                <p id="PokeId2">Que Numero de Pokemon buscas?</p>
+                <input type="text" readonly id="PokeId">
+            </div>
+            <div id="btnBusca">
+                <button id="btnCancel"class="btnAN">CLEAN</button>
+                <button id="btnGet"class="btnAN">FETCH</button>
+            </div>
+            <div id="num">
+                <button id="btnN0"class="btnNumero">0</button>
+                <button id="btnN1"class="btnNumero">1</button>
+                <button id="btnN2"class="btnNumero">2</button>
+                <button id="btnN3"class="btnNumero">3</button>
+                <button id="btnN4"class="btnNumero">4</button>
+                <button id="btnN5"class="btnNumero">5</button>
+                <button id="btnN6"class="btnNumero">6</button>
+                <button id="btnN7"class="btnNumero">7</button>
+                <button id="btnN8"class="btnNumero">8</button>
+                <button id="btnN9"class="btnNumero">9</button>
+            </div>
+            <audio id="audio" loop autoplay>
+                <source src="PokeRap.mp3" type="audio/mp3">
+            </audio>
+            <audio id="PokedexAudio" src="PokeSearch.mp3"></audio>
+        </div>
+        <footer><p>Proyecto realizado por Miguel Angel Escoto Escudero</p></footer>
+        <script src="index.js"></script>
+    </body>
+</html>
